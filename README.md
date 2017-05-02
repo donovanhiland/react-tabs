@@ -1,4 +1,4 @@
-# react-tabs [![Build Status](https://travis-ci.org/reactjs/react-tabs.svg?branch=master)](https://travis-ci.org/reactjs/react-tabs) [![npm version](https://img.shields.io/npm/v/react-tabs.svg)](https://www.npmjs.com/package/react-tabs)
+# styleless-react-tabs [![npm version](https://img.shields.io/npm/v/styleless-react-tabs.svg)](https://www.npmjs.com/package/styleless-react-tabs)
 
 Accessible react tab component BUT without the default styles
 
@@ -9,19 +9,19 @@ Accessible react tab component BUT without the default styles
 ## Installing
 
 ```bash
-$ yarn add react-tabs
+$ yarn add styleless-react-tabs
 ```
 
 You can also still use npm
 
 ```bash
-npm install react-tabs --save
+npm install styleless-react-tabs --save
 ```
 
 Or use directly in your html as UMD component
 
 ```html
-<script src="https://unpkg.com/react-tabs@1.0.0/dist/react-tabs.min.js" />
+<script src="https://unpkg.com/react-tabs@1.0.0/dist/styleless-react-tabs.min.js" />
 ```
 
 ## Demo
