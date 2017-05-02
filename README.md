@@ -1,6 +1,6 @@
 # react-tabs [![Build Status](https://travis-ci.org/reactjs/react-tabs.svg?branch=master)](https://travis-ci.org/reactjs/react-tabs) [![npm version](https://img.shields.io/npm/v/react-tabs.svg)](https://www.npmjs.com/package/react-tabs)
 
-Accessible react tab component
+Accessible react tab component BUT without the default styles
 
 > Supports React 0.14 and 15
 
