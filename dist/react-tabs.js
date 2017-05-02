@@ -166,7 +166,8 @@ var Tab = function (_Component) {
       _extends({}, attributes, {
         className: (0, _classnames2.default)(className, (_cx = {}, _cx[selectedClassName] = selected, _cx[disabledClassName] = disabled, _cx)),
         ref: function ref(node) {
-          _this2.node = node;if (tabRef) tabRef(node);
+          _this2.node = node;
+          if (tabRef) tabRef(node);
         },
         role: 'tab',
         id: id,
@@ -254,10 +255,7 @@ var TabList = function (_Component) {
 
     return _react2.default.createElement(
       'ul',
-      _extends({}, attributes, {
-        className: (0, _classnames2.default)(className),
-        role: 'tablist'
-      }),
+      _extends({}, attributes, { className: (0, _classnames2.default)(className), role: 'tablist' }),
       children
     );
   };
@@ -787,8 +785,8 @@ var UncontrolledTabs = function (_Component) {
       }
     }, _this.handleClick = function (e) {
       var node = e.target;
+      // eslint-disable-next-line no-cond-assign
       do {
-        // eslint-disable-line no-cond-assign
         if (_this.isTabFromContainer(node)) {
           if (isTabDisabled(node)) {
             return;
